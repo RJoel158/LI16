@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS filas, SUM(CASE WHEN userid IS NULL THEN 1 ELSE 0 END) AS ids_nulos, SUM(CASE WHEN gender IS NULL THEN 1 ELSE 0 END) AS genero_nulo, SUM(CASE WHEN tenure IS NULL THEN 1 ELSE 0 END) AS tenure_nulo, MIN(age) AS edad_minima, MAX(age) AS edad_maxima FROM db_ronald.fb_ronald;

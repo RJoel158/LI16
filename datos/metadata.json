@@ -1,0 +1,25 @@
+{
+  "origen": "https://www.kaggle.com/api/v1/datasets/download/sheenabatra/facebook-data",
+  "columnas": [
+    "userid",
+    "age",
+    "dob_day",
+    "dob_year",
+    "dob_month",
+    "gender",
+    "tenure",
+    "friend_count",
+    "friendships_initiated",
+    "likes",
+    "likes_received",
+    "mobile_likes",
+    "mobile_likes_received",
+    "www_likes",
+    "www_likes_received"
+  ],
+  "filas": 99003,
+  "usuarios_unicos": 99003,
+  "sha256_original": "1f2fe45754ce597e4d8694e831bafc22337ecb6c132e2aef617b3a4a3828dc54",
+  "sha256_sin_encabezado": "f4c0b6ad54d2422aa461f0192ba4e4037c3e295ce8c67a147235c10cf664fafe",
+  "archivo_preparado": "C:\\Users\\wiget\\OneDrive\\Desktop\\practicaTecEmer\\datos\\pseudo_facebook_ronald.csv"
+}

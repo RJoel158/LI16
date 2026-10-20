@@ -1,0 +1,8 @@
+{
+  "id": "02",
+  "titulo": "Punto 2 Repositorio propio en Ubuntu",
+  "fecha": "2026-10-20T15:51:33.2326079-04:00",
+  "comando": "wsl -d Ubuntu-24.04 -u root -- sh -lc 'cd /root/li16-ronald; pwd; git log -2 --oneline; git ls-files; docker compose config --services'",
+  "salida": "/root/li16-ronald\r\nfdd2a78 Persistir Derby en directorio de datos\r\nf6e14d6 Crear laboratorio LI16 con imagenes oficiales\r\nREADME.md\r\ncompose.yaml\r\nconfig/core-site.xml\r\nconfig/hdfs-site.xml\r\nconfig/hive-site.xml\r\nnamenode\r\ndatanode\r\nhive-metastore\r\nhive-server\r\n",
+  "exit_code": 0
+}

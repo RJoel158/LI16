@@ -1,0 +1,8 @@
+{
+  "id": "11",
+  "titulo": "Punto 11 CSV sin encabezado",
+  "fecha": "2026-10-20T15:49:39.9602123-04:00",
+  "comando": "& 'C:/Users/wiget/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' scripts/preparar_datos.py",
+  "salida": "{\r\n  \"origen\": \"https://www.kaggle.com/api/v1/datasets/download/sheenabatra/facebook-data\",\r\n  \"columnas\": [\r\n    \"userid\",\r\n    \"age\",\r\n    \"dob_day\",\r\n    \"dob_year\",\r\n    \"dob_month\",\r\n    \"gender\",\r\n    \"tenure\",\r\n    \"friend_count\",\r\n    \"friendships_initiated\",\r\n    \"likes\",\r\n    \"likes_received\",\r\n    \"mobile_likes\",\r\n    \"mobile_likes_received\",\r\n    \"www_likes\",\r\n    \"www_likes_received\"\r\n  ],\r\n  \"filas\": 99003,\r\n  \"usuarios_unicos\": 99003,\r\n  \"sha256_original\": \"1f2fe45754ce597e4d8694e831bafc22337ecb6c132e2aef617b3a4a3828dc54\",\r\n  \"sha256_sin_encabezado\": \"f4c0b6ad54d2422aa461f0192ba4e4037c3e295ce8c67a147235c10cf664fafe\",\r\n  \"archivo_preparado\": \"C:\\\\Users\\\\wiget\\\\OneDrive\\\\Desktop\\\\practicaTecEmer\\\\datos\\\\pseudo_facebook_ronald.csv\"\r\n}\r\nPrimera fila sin encabezado: 2094382,14,19,1999,11,male,266,0,0,0,0,0,0,0,0\r\n",
+  "exit_code": 0
+}

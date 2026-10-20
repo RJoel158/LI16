@@ -1,0 +1,8 @@
+{
+  "id": "16e",
+  "titulo": "Punto 16e Consulta ejecutada en Apache Hive",
+  "fecha": "2026-10-20T15:53:45.1352683-04:00",
+  "comando": "docker exec li16-ronald-hive-server-1 beeline -u jdbc:hive2://localhost:10000 -n hive --silent=true --showHeader=true --outputformat=tsv2 -f /tmp/16e.sql",
+  "salida": "SLF4J: Class path contains multiple SLF4J bindings.\r\nSLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.18.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]\r\nSLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]\r\nSLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.\r\nSLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]\r\nSLF4J: Class path contains multiple SLF4J bindings.\r\nSLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.18.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]\r\nSLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]\r\nSLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.\r\nSLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]\r\n\r\nmes_cumpleanios\tusuarios\r\n1\t11772\r\n2\t7632\r\n3\t8110\r\n4\t7810\r\n5\t8271\r\n6\t7607\r\n7\t8021\r\n8\t8266\r\n9\t7939\r\n10\t8476\r\n11\t7205\r\n12\t7894\r\n\r\n\r\n[WARN] Failed to create directory: /home/hive/.beeline\r\nNo such file or directory\r\n",
+  "exit_code": 0
+}

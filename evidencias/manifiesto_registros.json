@@ -1,0 +1,198 @@
+[
+  {
+    "punto": "01",
+    "archivo": "01-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/01.json",
+    "fecha_ejecucion": "2026-10-20T15:49:39.0525918-04:00"
+  },
+  {
+    "punto": "02",
+    "archivo": "02-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/02.json",
+    "fecha_ejecucion": "2026-10-20T15:51:33.2326079-04:00"
+  },
+  {
+    "punto": "03",
+    "archivo": "03-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/03.json",
+    "fecha_ejecucion": "2026-10-20T15:51:33.6110123-04:00"
+  },
+  {
+    "punto": "04",
+    "archivo": "04-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/04.json",
+    "fecha_ejecucion": "2026-10-20T15:55:16.0813697-04:00"
+  },
+  {
+    "punto": "05",
+    "archivo": "05-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/05.json",
+    "fecha_ejecucion": "2026-10-20T15:57:56.1066642-04:00"
+  },
+  {
+    "punto": "06",
+    "archivo": "06-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/06.json",
+    "fecha_ejecucion": "2026-10-20T15:51:34.0882413-04:00"
+  },
+  {
+    "punto": "07",
+    "archivo": "07-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/07.json",
+    "fecha_ejecucion": "2026-10-20T15:51:34.7086037-04:00"
+  },
+  {
+    "punto": "08",
+    "archivo": "08-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/08.json",
+    "fecha_ejecucion": "2026-10-20T15:51:36.6648643-04:00"
+  },
+  {
+    "punto": "09",
+    "archivo": "09-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/09.json",
+    "fecha_ejecucion": "2026-10-20T15:57:58.5043506-04:00"
+  },
+  {
+    "punto": "10",
+    "archivo": "10-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/10.json",
+    "fecha_ejecucion": "2026-10-20T15:49:39.8704771-04:00"
+  },
+  {
+    "punto": "11",
+    "archivo": "11-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/11.json",
+    "fecha_ejecucion": "2026-10-20T15:49:39.9602123-04:00"
+  },
+  {
+    "punto": "12",
+    "archivo": "12-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/12.json",
+    "fecha_ejecucion": "2026-10-20T15:52:12.3774856-04:00"
+  },
+  {
+    "punto": "13",
+    "archivo": "13-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/13.json",
+    "fecha_ejecucion": "2026-10-20T15:52:13.4643903-04:00"
+  },
+  {
+    "punto": "14",
+    "archivo": "14-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/14.json",
+    "fecha_ejecucion": "2026-10-20T15:52:17.7108504-04:00"
+  },
+  {
+    "punto": "15a",
+    "archivo": "15a-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/15a.json",
+    "fecha_ejecucion": "2026-10-20T15:53:05.5696495-04:00"
+  },
+  {
+    "punto": "15b",
+    "archivo": "15b-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/15b.json",
+    "fecha_ejecucion": "2026-10-20T15:58:01.9663690-04:00"
+  },
+  {
+    "punto": "15c",
+    "archivo": "15c-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/15c.json",
+    "fecha_ejecucion": "2026-10-20T15:53:09.2844285-04:00"
+  },
+  {
+    "punto": "15d",
+    "archivo": "15d-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/15d.json",
+    "fecha_ejecucion": "2026-10-20T15:55:07.0785991-04:00"
+  },
+  {
+    "punto": "15e",
+    "archivo": "15e-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/15e.json",
+    "fecha_ejecucion": "2026-10-20T15:53:16.0990859-04:00"
+  },
+  {
+    "punto": "15f",
+    "archivo": "15f-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/15f.json",
+    "fecha_ejecucion": "2026-10-20T15:53:19.6785706-04:00"
+  },
+  {
+    "punto": "15f",
+    "archivo": "15f-registro-2.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/15f.json",
+    "fecha_ejecucion": "2026-10-20T15:53:19.6785706-04:00"
+  },
+  {
+    "punto": "16a",
+    "archivo": "16a-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/16a.json",
+    "fecha_ejecucion": "2026-10-20T15:53:24.4705673-04:00"
+  },
+  {
+    "punto": "16b",
+    "archivo": "16b-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/16b.json",
+    "fecha_ejecucion": "2026-10-20T15:53:31.1421392-04:00"
+  },
+  {
+    "punto": "16c",
+    "archivo": "16c-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/16c.json",
+    "fecha_ejecucion": "2026-10-20T15:53:35.8701101-04:00"
+  },
+  {
+    "punto": "16d",
+    "archivo": "16d-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/16d.json",
+    "fecha_ejecucion": "2026-10-20T15:55:10.5051586-04:00"
+  },
+  {
+    "punto": "16e",
+    "archivo": "16e-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/16e.json",
+    "fecha_ejecucion": "2026-10-20T15:53:45.1352683-04:00"
+  },
+  {
+    "punto": "16f",
+    "archivo": "16f-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/16f.json",
+    "fecha_ejecucion": "2026-10-20T15:53:50.8201842-04:00"
+  },
+  {
+    "punto": "16g",
+    "archivo": "16g-registro-1.png",
+    "tipo": "registro_renderizado",
+    "fuente": "registros/16g.json",
+    "fecha_ejecucion": "2026-10-20T15:53:55.5969164-04:00"
+  }
+]

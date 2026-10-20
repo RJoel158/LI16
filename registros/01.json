@@ -1,0 +1,8 @@
+{
+  "id": "01",
+  "titulo": "Punto 1 Contenedores existentes",
+  "fecha": "2026-10-20T15:49:39.0525918-04:00",
+  "comando": "Get-Date; docker ps -a",
+  "salida": "\r\nmartes, 20 de octubre de 2026 15:49:39\r\nCONTAINER ID   IMAGE                            COMMAND                  CREATED        STATUS                      PORTS     NAMES\r\n51e987f737d7   ps2-app-basura-espejo-frontend   \"/docker-entrypoint.…\"   5 months ago   Exited (0) 5 months ago               greenbit-frontend\r\nfb5b2c6409b1   ps2-app-basura-espejo-backend    \"docker-entrypoint.s…\"   5 months ago   Exited (0) 5 months ago               greenbit-backend\r\n1a0a207c3df2   mysql:8.0                        \"docker-entrypoint.s…\"   5 months ago   Exited (137) 5 months ago             greenbit-db\r\n\r\n",
+  "exit_code": 0
+}

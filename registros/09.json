@@ -1,0 +1,8 @@
+{
+  "id": "09",
+  "titulo": "Punto 9 Contenido HDFS mediante WebHDFS",
+  "fecha": "2026-10-20T15:57:58.5043506-04:00",
+  "comando": "(Invoke-WebRequest 'http://localhost:9870/webhdfs/v1/user/hive/warehouse/?op=LISTSTATUS' -UseBasicParsing).Content",
+  "salida": "{\"FileStatuses\":{\"FileStatus\":[\n{\"accessTime\":0,\"blockSize\":0,\"childrenNum\":1,\"fileId\":16410,\"group\":\"supergroup\",\"length\":0,\"modificationTime\":1792525992031,\"owner\":\"hive\",\"pathSuffix\":\"db_ronald.db\",\"permission\":\"755\",\"replication\":0,\"storagePolicy\":0,\"type\":\"DIRECTORY\"}\n]}}\n\r\n",
+  "exit_code": 0
+}

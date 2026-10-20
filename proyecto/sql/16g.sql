@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS usuarios_mayores_25, SUM(mobile_likes) AS likes_celular, SUM(www_likes) AS likes_web, ROUND(AVG(mobile_likes),2) AS promedio_celular, ROUND(AVG(www_likes),2) AS promedio_web FROM db_ronald.fb_ronald WHERE age > 25;

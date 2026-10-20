@@ -1,0 +1,8 @@
+{
+  "id": "12",
+  "titulo": "Punto 12 Copia del CSV al contenedor",
+  "fecha": "2026-10-20T15:52:12.3774856-04:00",
+  "comando": "docker cp datos/pseudo_facebook_ronald.csv li16-ronald-namenode-1:/tmp/; docker exec li16-ronald-namenode-1 ls -lh /tmp/pseudo_facebook_ronald.csv",
+  "salida": "-rwxr-xr-x 1 root root 5.0M Oct 20 19:49 /tmp/pseudo_facebook_ronald.csv\r\n",
+  "exit_code": 0
+}

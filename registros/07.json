@@ -1,0 +1,8 @@
+{
+  "id": "07",
+  "titulo": "Punto 7 Estado inicial del warehouse",
+  "fecha": "2026-10-20T15:51:34.7086037-04:00",
+  "comando": "docker exec li16-ronald-namenode-1 hdfs dfs -ls /user/hive/warehouse/",
+  "salida": "",
+  "exit_code": 0
+}

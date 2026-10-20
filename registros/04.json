@@ -1,0 +1,8 @@
+{
+  "id": "04",
+  "titulo": "Punto 4 Contenedores del laboratorio",
+  "fecha": "2026-10-20T15:55:16.0813697-04:00",
+  "comando": "docker ps --filter label=com.docker.compose.project=li16-ronald",
+  "salida": "CONTAINER ID   IMAGE                 COMMAND                  CREATED         STATUS         PORTS                                                    NAMES\r\nd9f94d8b3f02   apache/hive:4.0.1     \"sh -c /entrypoint.sh\"   4 minutes ago   Up 4 minutes   9083/tcp, 10000/tcp, 10002/tcp                           li16-ronald-hive-metastore-1\r\na6b78bc440b3   apache/hive:4.0.1     \"sh -c /entrypoint.sh\"   5 minutes ago   Up 3 minutes   127.0.0.1:10000->10000/tcp, 127.0.0.1:10002->10002/tcp   li16-ronald-hive-server-1\r\n79a1c3398560   apache/hadoop:3.4.1   \"/bin/bash -c 'mkdir…\"   5 minutes ago   Up 5 minutes                                                            li16-ronald-datanode-1\r\n30176b1b1407   apache/hadoop:3.4.1   \"/bin/bash -c 'mkdir…\"   5 minutes ago   Up 5 minutes   127.0.0.1:9870->9870/tcp                                 li16-ronald-namenode-1\r\n",
+  "exit_code": 0
+}
