@@ -87,9 +87,10 @@ for key,title,explanation in POINTS:
  for pic in pics:
   if pic.exists():
    with Image.open(pic) as im:width,height=im.size
-   maxheight=2.7 if len(pics)>1 else 2.7 if key=='15b' else 4.2
+   maxheight=3.6 if key=='05' else 2.7 if key=='15b' else 5.7 if '-web' in pic.stem and key!='08' else 4.8 if len(pics)>1 else 4.2
    scale=min(6.65/width,maxheight/height)
    doc.add_picture(str(pic),width=Inches(width*scale),height=Inches(height*scale))
+   doc.paragraphs[-1].paragraph_format.keep_with_next=True
    kind='Interfaz web real de HDFS' if '-web' in pic.stem else 'Registro real renderizado' if '-registro-' in pic.stem else 'Captura del visor de registros reales'
    p=doc.add_paragraph('Figura '+pic.stem+'  '+kind)
    for run in p.runs:run.font.size=Pt(9)
