@@ -1,8 +1,0 @@
-{
-  "id": "15e-verificacion",
-  "titulo": "Punto 15e Archivo cargado en la tabla",
-  "fecha": "2026-10-20T15:58:02.0071198-04:00",
-  "comando": "docker exec li16-ronald-namenode-1 hdfs dfs -ls /user/hive/warehouse/db_ronald.db/fb_ronald/",
-  "salida": "Found 1 items\r\n-rw-r--r--   1 root supergroup    5216842 2026-10-20 19:52 /user/hive/warehouse/db_ronald.db/fb_ronald/pseudo_facebook_ronald.csv\r\n",
-  "exit_code": 0
-}

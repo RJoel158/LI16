@@ -14,10 +14,12 @@ Materia: Tecnologías Emergentes I
 - Se creará un proyecto propio con Docker Compose, diferente de Big Data Europe.
 - Se preparó un borrador Word con portada y los 16 puntos resaltados en amarillo.
 
-## Pendientes inmediatos
+## Estado actual del laboratorio
 
-Integración activada desde Docker Desktop y verificada desde Ubuntu. Docker Engine 29.4.1 y Docker Compose v5.1.3 responden correctamente. `docker ps -a` muestra tres contenedores anteriores detenidos: greenbit-frontend, greenbit-backend y greenbit-db; se conservan sin cambios.
+- Entorno Docker 100% operativo con 4 contenedores activos (`li16-ronald-namenode-1`, `li16-ronald-datanode-1`, `li16-ronald-hive-metastore-1`, `li16-ronald-hive-server-1`).
+- Dataset preparado en `datos/pseudo_facebook_ronald.csv` (99.003 filas cargadas exitosamente en Hive `db_ronald.fb_ronald`).
+- Las 7 consultas SQL de HiveQL están probadas y validadas matemáticamente contra el CSV original.
+- Interfaz web HDFS activa en `http://localhost:9870`.
+- El informe técnico `informe/Informe_LI16_Ronald_Saavedra.docx` y su PDF compilado están listos, cumpliendo con la portada, puntos resaltados en amarillo y análisis reflexivo.
+- Creado el lanzador interactivo `iniciar_asistente.bat` (`menu_evidencias.ps1`) para que el estudiante tome las capturas de pantalla completa (con la barra de tareas y reloj de Windows) y las incorpore de forma automática al portapapeles.
 
-Validar la integración Docker y Ubuntu, preparar el usuario de trabajo y capturar las evidencias con la hora del sistema visible. El borrador Word aún requiere revisión visual: el renderizador detectó que LibreOffice no está instalado en Windows.
-
-Las capturas académicas y los resultados de Hive todavía no se han generado. Los puntos pendientes se completarán después de ejecutarlos.

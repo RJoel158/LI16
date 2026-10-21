@@ -1,8 +1,0 @@
-{
-  "id": "14",
-  "titulo": "Punto 14 Shell del servidor Hive",
-  "fecha": "2026-10-20T15:52:17.7108504-04:00",
-  "comando": "docker exec li16-ronald-hive-server-1 /bin/bash -c 'hostname; whoami; pwd; beeline --version'",
-  "salida": "hive-server\r\nhive\r\n/opt/hive\r\nSLF4J: Class path contains multiple SLF4J bindings.\r\nSLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.18.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]\r\nSLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]\r\nSLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.\r\nSLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]\r\nSLF4J: Class path contains multiple SLF4J bindings.\r\nSLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.18.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]\r\nSLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]\r\nSLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.\r\nSLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]\r\nHive 4.0.1\r\nGit git://fv-az979-78/home/runner/work/hive/hive -r 3af4517eb8cfd9407ad34ed78a0b48b57dfaa264\r\nCompiled by runner on Wed Oct 2 08:31:05 UTC 2024\r\nFrom source with checksum eb2528d45020f6eb36637d0600979da8\r\n",
-  "exit_code": 0
-}

@@ -1,8 +1,0 @@
-{
-  "id": "15b",
-  "titulo": "Punto 15b Columnas y tipos del dataset",
-  "fecha": "2026-10-20T15:58:01.9663690-04:00",
-  "comando": "Get-Content datos/original/pseudo_facebook.csv -TotalCount 2; Get-Content proyecto/sql/15c.sql",
-  "salida": "userid,age,dob_day,dob_year,dob_month,gender,tenure,friend_count,friendships_initiated,likes,likes_received,mobile_likes,mobile_likes_received,www_likes,www_likes_received\r\n2094382,14,19,1999,11,male,266,0,0,0,0,0,0,0,0\r\nCREATE TABLE IF NOT EXISTS db_ronald.fb_ronald (\r\nuserid BIGINT, age INT, dob_day INT, dob_year INT, dob_month INT,\r\ngender STRING, tenure INT, friend_count INT, friendships_initiated INT,\r\nlikes BIGINT, likes_received BIGINT, mobile_likes BIGINT,\r\nmobile_likes_received BIGINT, www_likes BIGINT, www_likes_received BIGINT\r\n) ROW FORMAT DELIMITED FIELDS TERMINATED BY ','\r\nSTORED AS TEXTFILE TBLPROPERTIES ('serialization.null.format'='NA');\r\nDESCRIBE db_ronald.fb_ronald;\r\n",
-  "exit_code": 0
-}

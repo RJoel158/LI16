@@ -1,8 +1,0 @@
-{
-  "id": "03",
-  "titulo": "Punto 3 Inicio con Docker Compose",
-  "fecha": "2026-10-20T15:51:33.6110123-04:00",
-  "comando": "wsl -d Ubuntu-24.04 -u root -- sh -lc 'cd /root/li16-ronald; docker compose up -d; docker compose ps'",
-  "salida": " Container li16-ronald-namenode-1 Running \r\n Container li16-ronald-datanode-1 Running \r\n Container li16-ronald-hive-metastore-1 Running \r\n Container li16-ronald-hive-server-1 Running \r\nNAME                           IMAGE                 COMMAND                  SERVICE          CREATED              STATUS              PORTS\r\nli16-ronald-datanode-1         apache/hadoop:3.4.1   \"/bin/bash -c 'mkdir…\"   datanode         About a minute ago   Up About a minute   \r\nli16-ronald-hive-metastore-1   apache/hive:4.0.1     \"sh -c /entrypoint.sh\"   hive-metastore   About a minute ago   Up About a minute   9083/tcp, 10000/tcp, 10002/tcp\r\nli16-ronald-hive-server-1      apache/hive:4.0.1     \"sh -c /entrypoint.sh\"   hive-server      About a minute ago   Up 1 second         127.0.0.1:10000->10000/tcp, 127.0.0.1:10002->10002/tcp\r\nli16-ronald-namenode-1         apache/hadoop:3.4.1   \"/bin/bash -c 'mkdir…\"   namenode         About a minute ago   Up About a minute   127.0.0.1:9870->9870/tcp\r\n",
-  "exit_code": 0
-}

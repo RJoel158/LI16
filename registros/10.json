@@ -1,8 +1,0 @@
-{
-  "id": "10",
-  "titulo": "Punto 10 Dataset descargado de Kaggle",
-  "fecha": "2026-10-20T15:49:39.8704771-04:00",
-  "comando": "Get-Date; Get-Item datos/facebook-data.zip,datos/original/pseudo_facebook.csv; Get-FileHash datos/original/pseudo_facebook.csv -Algorithm SHA256",
-  "salida": "\r\nmartes, 20 de octubre de 2026 15:49:39\r\n\r\nLastWriteTime : 20/10/2026 15:48:49\r\nLength        : 1908730\r\nName          : facebook-data.zip\r\n\r\n\r\nLastWriteTime : 2/10/2019 12:13:38\r\nLength        : 5217014\r\nName          : pseudo_facebook.csv\r\n\r\n\r\nAlgorithm : SHA256\r\nHash      : 1F2FE45754CE597E4D8694E831BAFC22337ECB6C132E2AEF617B3A4A3828DC54\r\nPath      : C:\\Users\\wiget\\OneDrive\\Desktop\\practicaTecEmer\\datos\\original\\pseudo_facebook.csv\r\n\r\n\r\n",
-  "exit_code": 0
-}

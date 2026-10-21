@@ -1,8 +1,0 @@
-{
-  "id": "06",
-  "titulo": "Punto 6 Shell del NameNode",
-  "fecha": "2026-10-20T15:51:34.0882413-04:00",
-  "comando": "docker exec li16-ronald-namenode-1 /bin/bash -c 'hostname; whoami; pwd; hdfs version | head -1'",
-  "salida": "namenode\r\nroot\r\n/opt/hadoop\r\nHadoop 3.4.1\r\n",
-  "exit_code": 0
-}

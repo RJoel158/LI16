@@ -1,8 +1,0 @@
-{
-  "id": "13",
-  "titulo": "Punto 13 Carga del CSV a HDFS",
-  "fecha": "2026-10-20T15:52:13.4643903-04:00",
-  "comando": "docker exec li16-ronald-namenode-1 /bin/bash -c 'cd /tmp; hdfs dfs -put pseudo_facebook_ronald.csv /user/hive/warehouse/; hdfs dfs -ls /user/hive/warehouse/'",
-  "salida": "Found 1 items\r\n-rw-r--r--   1 root supergroup    5216842 2026-10-20 19:52 /user/hive/warehouse/pseudo_facebook_ronald.csv\r\n",
-  "exit_code": 0
-}
