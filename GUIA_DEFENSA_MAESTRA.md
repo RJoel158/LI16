@@ -26,7 +26,7 @@ Antes de iniciar tu evaluación ante el docente, realiza este checklist preventi
 
 ---
 
-## 2. Speech de Apertura Unificado (60 a 90 Segundos)
+## 2. Introducción y Justificación Arquitectural del Proyecto
 
 > *"Buenos días / tardes docente. Para los laboratorios LI16 y LI17 implementé una arquitectura analítica desacoplada de Big Data basada en Apache Hadoop 3.4.1 y Apache Hive 4.0.1 sobre Docker Compose.*  
 > *A diferencia de los entornos legados tradicionales de Big Data Europe —que utilizan imágenes monolíticas desactualizadas de Hadoop 2.x—, esta implementación divide las responsabilidades en cuatro microservicios especializados:*  
@@ -217,7 +217,7 @@ La Consola Maestra (`menu_evidencias.ps1`) incluye el comando **`walkthrough`**,
 
 ---
 
-## 5. Banco de Preguntas Trampa del Docente y Respuestas Maestras
+## 5. Criterios de Diseño y Preguntas Frecuentes de Arquitectura
 
 1. **¿Por qué usamos Beeline en lugar de la CLI `hive`?**  
    *R:* En Hive 4.0 la CLI monolítica `hive` fue formalmente deprecada. Beeline es un cliente ligero basado en SQLLine que se comunica con HiveServer2 por JDBC, garantizando arquitectura multi-hilo, concurrencia y seguridad.
@@ -239,7 +239,7 @@ La Consola Maestra (`menu_evidencias.ps1`) incluye el comando **`walkthrough`**,
 
 ---
 
-## 6. Playbook de Troubleshooting de Emergencia durante la Defensa
+## 6. Protocolos Operativos y Control de Contingencias
 
 | Síntoma en Terminal | Causa Raíz | Solución Rápida |
 | :--- | :--- | :--- |
